@@ -17,6 +17,11 @@ cask "ani-mime" do
 
   app "ani-mime.app", target: "Ani-Mime.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Ani-Mime.app"]
+  end
+
   uninstall quit: "com.vietnguyenwsilentium.ani-mime"
 
   zap trash: [
