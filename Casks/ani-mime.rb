@@ -1,13 +1,13 @@
 cask "ani-mime" do
-  version "0.17.1"
+  version "0.17.2"
 
   on_arm do
-    sha256 "c2d9a52f658c4687d6ee50d4807662719b5474d99d999960231eb90c59523de2"
+    sha256 "606916b01b4fac0c34b676e5334293128d41103c468d2fd572749f3dabb6ab9a"
     url "https://github.com/vietnguyenhoangw/ani-mime/releases/download/v#{version}/ani-mime_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "9e416aa3b01e8fd13fc3004996a16e81b1737f08a955636d53bf822f5a3ffd61"
+    sha256 "e3af9afb882026ca9c8f995224e6ebc9589a574932a88be299012ea10932d1ea"
     url "https://github.com/vietnguyenhoangw/ani-mime/releases/download/v#{version}/ani-mime_#{version}_x64.dmg"
   end
 
